@@ -1,0 +1,102 @@
+@media (max-width: 1920px) {
+    .recommend {
+     width: 493px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .recommend {
+     width: 360px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .recommend {
+     width: 403px;
+    }
+}
+@media (max-width: 1280px) {
+    .recommend {
+     width: 323px;
+    }
+}
+
+.recommend {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px 0px;
+    margin: 1px 0px;
+    box-shadow: 0px 0.9px 2px rgba(0, 0, 0, 0.32);
+}
+
+.container{
+    width: 100%;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+	font-style: normal;
+	font-weight: 550;
+	font-size: 14px;
+	line-height: 20px;
+	color: #29313D;
+}
+
+.text1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 16px;
+    color: #D6D8DE;
+}
+
+.text2{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #29313D;
+}
+
+.text3{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #003AE5;
+}
+
+.text4{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #D11F00;
+}
+
+.text5{
+	font-style: normal;
+	font-weight: 550;
+	font-size: 16px;
+	line-height: 20px;
+	color: #29313D;
+}
+
+.text6{
+	font-style: normal;
+	font-weight: 550;
+	font-size: 16px;
+	line-height: 20px;
+	color: #003AE5;
+}
+
+.text7{
+	font-style: normal;
+	font-weight: 550;
+	font-size: 16px;
+	line-height: 20px;
+	color: #D11F00;
+}

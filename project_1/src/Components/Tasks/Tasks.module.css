@@ -1,0 +1,66 @@
+@media (max-width: 1920px) {
+    .tasks {
+     width: 726px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .tasks {
+     width: 593px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .tasks {
+     width: 636px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .tasks {
+     width: 556px;
+    }
+}
+
+.tasks {
+    flex-direction: column;
+    padding: 32px;
+    display: flex; 
+    align-items: flex-start;
+    margin-left: 24px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0.9px 2px rgba(0, 0, 0, 0.32);
+    border-radius: 10px; 
+}
+
+.title {
+    font-weight: 550;
+    font-size: 28px;
+    color: #000000; 
+}
+
+.container{
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ref {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #0062FF;
+}
+
+.text{
+    margin-top: 14px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #22242A;
+}
